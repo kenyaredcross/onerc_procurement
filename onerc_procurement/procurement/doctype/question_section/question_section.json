@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "autoname": "prompt",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_name",
+  "order",
+  "is_mandatory_for_all",
+  "applies_to_supplier_portal",
+  "description",
+  "section_categories",
+  "applicable_categories"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Section Name",
+   "reqd": 1
+  },
+  {
+   "default": "10",
+   "fieldname": "order",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Order"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_mandatory_for_all",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Mandatory for All Categories"
+  },
+  {
+   "default": "1",
+   "fieldname": "applies_to_supplier_portal",
+   "fieldtype": "Check",
+   "label": "Applies to Supplier Portal"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_categories",
+   "fieldtype": "Section Break",
+   "label": "Applicable Categories",
+   "depends_on": "eval:!doc.is_mandatory_for_all"
+  },
+  {
+   "fieldname": "applicable_categories",
+   "fieldtype": "Table",
+   "label": "Applicable Categories",
+   "options": "Section Category",
+   "depends_on": "eval:!doc.is_mandatory_for_all"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Question Section",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Evaluator"
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Compliance"
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Read Only"
+  },
+  {
+   "read": 1,
+   "role": "Supplier"
+  }
+ ],
+ "sort_field": "order",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

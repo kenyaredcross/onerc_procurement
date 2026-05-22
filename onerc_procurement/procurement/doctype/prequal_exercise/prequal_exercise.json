@@ -1,0 +1,176 @@
+{
+ "actions": [],
+ "autoname": "field:exercise_code",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise_title",
+  "exercise_code",
+  "status",
+  "entity",
+  "cb1",
+  "open_date",
+  "close_date",
+  "edit_cutoff_date",
+  "reminder_days_before",
+  "section_categories",
+  "categories",
+  "section_content",
+  "advertisement_text",
+  "portal_instructions",
+  "section_stats",
+  "total_bids",
+  "responsive_bids",
+  "non_responsive_bids",
+  "prequalified_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exercise Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "exercise_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Exercise Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nPublished\nClosed\nUnder Evaluation\nCompleted"
+  },
+  {
+   "fieldname": "entity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Entity"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "open_date",
+   "fieldtype": "Datetime",
+   "label": "Open Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "close_date",
+   "fieldtype": "Datetime",
+   "label": "Close Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "edit_cutoff_date",
+   "fieldtype": "Datetime",
+   "label": "Edit Cutoff Date"
+  },
+  {
+   "default": "3",
+   "fieldname": "reminder_days_before",
+   "fieldtype": "Int",
+   "label": "Reminder Days Before Close"
+  },
+  {
+   "fieldname": "section_categories",
+   "fieldtype": "Section Break",
+   "label": "Categories"
+  },
+  {
+   "fieldname": "categories",
+   "fieldtype": "Table",
+   "label": "Categories",
+   "options": "Exercise Category"
+  },
+  {
+   "fieldname": "section_content",
+   "fieldtype": "Section Break",
+   "label": "Portal Content"
+  },
+  {
+   "fieldname": "advertisement_text",
+   "fieldtype": "Text Editor",
+   "label": "Advertisement Text"
+  },
+  {
+   "fieldname": "portal_instructions",
+   "fieldtype": "Text Editor",
+   "label": "Portal Instructions"
+  },
+  {
+   "fieldname": "section_stats",
+   "fieldtype": "Section Break",
+   "label": "Statistics"
+  },
+  {
+   "fieldname": "total_bids",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Bids",
+   "read_only": 1
+  },
+  {
+   "fieldname": "responsive_bids",
+   "fieldtype": "Int",
+   "label": "Responsive Bids",
+   "read_only": 1
+  },
+  {
+   "fieldname": "non_responsive_bids",
+   "fieldtype": "Int",
+   "label": "Non-Responsive Bids",
+   "read_only": 1
+  },
+  {
+   "fieldname": "prequalified_count",
+   "fieldtype": "Int",
+   "label": "Prequalified Count",
+   "read_only": 1
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Prequal Exercise",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Evaluator"
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Read Only"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

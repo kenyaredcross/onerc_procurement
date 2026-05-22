@@ -1,0 +1,217 @@
+{
+ "actions": [],
+ "autoname": "APP-.YYYY.-.#####",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exercise",
+  "category",
+  "supplier",
+  "status",
+  "cb1",
+  "payment_status",
+  "is_responsive",
+  "edit_locked",
+  "flagged_for_review",
+  "section_payment",
+  "payment_transaction",
+  "amount_paid",
+  "payment_date",
+  "section_submission",
+  "submission_date",
+  "last_edited",
+  "section_evaluation",
+  "technical_score",
+  "pass_fail",
+  "compliance_status",
+  "section_flags",
+  "flag_reason",
+  "admin_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "exercise",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Exercise",
+   "options": "Prequal Exercise",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "Prequal Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "options": "Supplier Profile",
+   "reqd": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nPayment Pending\nActive\nSubmitted\nNon-Responsive\nUnder Evaluation\nEvaluated\nPrequalified\nNot Prequalified"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Status",
+   "options": "Pending\nProcessing\nPaid\nFailed"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_responsive",
+   "fieldtype": "Check",
+   "label": "Responsive"
+  },
+  {
+   "default": "0",
+   "fieldname": "edit_locked",
+   "fieldtype": "Check",
+   "label": "Edit Locked"
+  },
+  {
+   "default": "0",
+   "fieldname": "flagged_for_review",
+   "fieldtype": "Check",
+   "label": "Flagged for Review"
+  },
+  {
+   "fieldname": "section_payment",
+   "fieldtype": "Section Break",
+   "label": "Payment Details"
+  },
+  {
+   "fieldname": "payment_transaction",
+   "fieldtype": "Link",
+   "label": "Payment Transaction",
+   "options": "Payment Transaction"
+  },
+  {
+   "fieldname": "amount_paid",
+   "fieldtype": "Currency",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "payment_date",
+   "fieldtype": "Datetime",
+   "label": "Payment Date"
+  },
+  {
+   "fieldname": "section_submission",
+   "fieldtype": "Section Break",
+   "label": "Submission"
+  },
+  {
+   "fieldname": "submission_date",
+   "fieldtype": "Datetime",
+   "label": "Submission Date"
+  },
+  {
+   "fieldname": "last_edited",
+   "fieldtype": "Datetime",
+   "label": "Last Edited",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_evaluation",
+   "fieldtype": "Section Break",
+   "label": "Evaluation Results"
+  },
+  {
+   "fieldname": "technical_score",
+   "fieldtype": "Float",
+   "label": "Technical Score",
+   "read_only": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "pass_fail",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pass/Fail",
+   "options": "Pending\nPass\nFail",
+   "read_only": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "compliance_status",
+   "fieldtype": "Select",
+   "label": "Compliance Status",
+   "options": "Pending\nCompliant\nNon-Compliant"
+  },
+  {
+   "fieldname": "section_flags",
+   "fieldtype": "Section Break",
+   "label": "Admin Notes"
+  },
+  {
+   "fieldname": "flag_reason",
+   "fieldtype": "Small Text",
+   "label": "Flag Reason"
+  },
+  {
+   "fieldname": "admin_notes",
+   "fieldtype": "Text",
+   "label": "Admin Notes"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Prequal Application",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "write": 1,
+   "role": "Prequal Evaluator"
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "write": 1,
+   "role": "Supplier",
+   "match": "supplier"
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Read Only"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

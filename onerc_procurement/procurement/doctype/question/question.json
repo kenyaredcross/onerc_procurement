@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "autoname": "QSTN-.YYYY.-.#####",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section",
+  "order",
+  "question_type",
+  "is_mandatory",
+  "question_text",
+  "help_text",
+  "section_options",
+  "dropdown_options",
+  "multi_select_options",
+  "section_scoring",
+  "is_scoreable",
+  "max_score",
+  "scoring_type",
+  "scoring_rubric",
+  "min_value",
+  "max_value",
+  "section_attachment",
+  "requires_attachment",
+  "attachment_label",
+  "section_conditions",
+  "display_condition_field",
+  "display_condition_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "section",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Section",
+   "options": "Question Section",
+   "reqd": 1
+  },
+  {
+   "default": "10",
+   "fieldname": "order",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Order"
+  },
+  {
+   "fieldname": "question_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Question Type",
+   "options": "\nText\nLong Text\nNumber\nCurrency (KES)\nYes-No\nDropdown\nMulti-select\nFile Upload\nDate\nDeclaration",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_mandatory",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Mandatory"
+  },
+  {
+   "fieldname": "question_text",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Question Text",
+   "reqd": 1
+  },
+  {
+   "fieldname": "help_text",
+   "fieldtype": "Small Text",
+   "label": "Help Text"
+  },
+  {
+   "fieldname": "section_options",
+   "fieldtype": "Section Break",
+   "label": "Options"
+  },
+  {
+   "fieldname": "dropdown_options",
+   "fieldtype": "Text",
+   "label": "Dropdown Options (one per line)",
+   "depends_on": "eval:doc.question_type=='Dropdown'"
+  },
+  {
+   "fieldname": "multi_select_options",
+   "fieldtype": "Text",
+   "label": "Multi-select Options (one per line)",
+   "depends_on": "eval:doc.question_type=='Multi-select'"
+  },
+  {
+   "fieldname": "section_scoring",
+   "fieldtype": "Section Break",
+   "label": "Scoring"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_scoreable",
+   "fieldtype": "Check",
+   "label": "Scoreable"
+  },
+  {
+   "fieldname": "max_score",
+   "fieldtype": "Float",
+   "label": "Max Score",
+   "depends_on": "eval:doc.is_scoreable"
+  },
+  {
+   "fieldname": "scoring_type",
+   "fieldtype": "Select",
+   "label": "Scoring Type",
+   "options": "\nManual\nTiered\nYes-No Binary\nPresence Check\nNumeric Range",
+   "depends_on": "eval:doc.is_scoreable"
+  },
+  {
+   "fieldname": "scoring_rubric",
+   "fieldtype": "Code",
+   "label": "Scoring Rubric (JSON)",
+   "options": "JSON",
+   "depends_on": "eval:doc.is_scoreable && doc.scoring_type && doc.scoring_type!='Manual'"
+  },
+  {
+   "fieldname": "min_value",
+   "fieldtype": "Float",
+   "label": "Min Value",
+   "depends_on": "eval:doc.is_scoreable && doc.scoring_type=='Numeric Range'"
+  },
+  {
+   "fieldname": "max_value",
+   "fieldtype": "Float",
+   "label": "Max Value",
+   "depends_on": "eval:doc.is_scoreable && doc.scoring_type=='Numeric Range'"
+  },
+  {
+   "fieldname": "section_attachment",
+   "fieldtype": "Section Break",
+   "label": "Attachment"
+  },
+  {
+   "default": "0",
+   "fieldname": "requires_attachment",
+   "fieldtype": "Check",
+   "label": "Requires Attachment"
+  },
+  {
+   "fieldname": "attachment_label",
+   "fieldtype": "Data",
+   "label": "Attachment Label",
+   "depends_on": "eval:doc.requires_attachment"
+  },
+  {
+   "fieldname": "section_conditions",
+   "fieldtype": "Section Break",
+   "label": "Display Conditions"
+  },
+  {
+   "fieldname": "display_condition_field",
+   "fieldtype": "Data",
+   "label": "Condition Field (fieldname)"
+  },
+  {
+   "fieldname": "display_condition_value",
+   "fieldtype": "Data",
+   "label": "Condition Value"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Question",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Evaluator"
+  },
+  {
+   "read": 1,
+   "role": "Supplier"
+  }
+ ],
+ "sort_field": "order",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

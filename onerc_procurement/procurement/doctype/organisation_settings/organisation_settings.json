@@ -1,0 +1,192 @@
+{
+ "actions": [],
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "organisation_name",
+  "logo",
+  "cb_general",
+  "default_fee",
+  "currency",
+  "portal_tagline",
+  "support_email",
+  "support_phone",
+  "section_mpesa",
+  "mpesa_environment",
+  "mpesa_shortcode",
+  "mpesa_consumer_key",
+  "mpesa_consumer_secret",
+  "mpesa_passkey",
+  "mpesa_callback_base_url",
+  "section_s3",
+  "s3_enabled",
+  "aws_bucket_name",
+  "aws_region",
+  "aws_access_key_id",
+  "aws_secret_access_key",
+  "s3_folder_prefix",
+  "section_portal",
+  "portal_instructions"
+ ],
+ "fields": [
+  {
+   "fieldname": "organisation_name",
+   "fieldtype": "Data",
+   "label": "Organisation Name",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "cb_general",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "5000",
+   "fieldname": "default_fee",
+   "fieldtype": "Currency",
+   "label": "Default Application Fee"
+  },
+  {
+   "default": "KES",
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "Currency"
+  },
+  {
+   "fieldname": "portal_tagline",
+   "fieldtype": "Data",
+   "label": "Portal Tagline"
+  },
+  {
+   "fieldname": "support_email",
+   "fieldtype": "Data",
+   "label": "Support Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "support_phone",
+   "fieldtype": "Data",
+   "label": "Support Phone"
+  },
+  {
+   "fieldname": "section_mpesa",
+   "fieldtype": "Section Break",
+   "label": "M-Pesa / Daraja Settings"
+  },
+  {
+   "default": "sandbox",
+   "fieldname": "mpesa_environment",
+   "fieldtype": "Select",
+   "label": "M-Pesa Environment",
+   "options": "sandbox\nproduction"
+  },
+  {
+   "fieldname": "mpesa_shortcode",
+   "fieldtype": "Data",
+   "label": "M-Pesa Shortcode"
+  },
+  {
+   "fieldname": "mpesa_consumer_key",
+   "fieldtype": "Password",
+   "label": "Consumer Key"
+  },
+  {
+   "fieldname": "mpesa_consumer_secret",
+   "fieldtype": "Password",
+   "label": "Consumer Secret"
+  },
+  {
+   "fieldname": "mpesa_passkey",
+   "fieldtype": "Password",
+   "label": "Passkey"
+  },
+  {
+   "fieldname": "mpesa_callback_base_url",
+   "fieldtype": "Data",
+   "label": "Callback Base URL"
+  },
+  {
+   "fieldname": "section_s3",
+   "fieldtype": "Section Break",
+   "label": "AWS S3 Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "s3_enabled",
+   "fieldtype": "Check",
+   "label": "S3 Enabled"
+  },
+  {
+   "fieldname": "aws_bucket_name",
+   "fieldtype": "Data",
+   "label": "Bucket Name"
+  },
+  {
+   "fieldname": "aws_region",
+   "fieldtype": "Data",
+   "label": "AWS Region"
+  },
+  {
+   "fieldname": "aws_access_key_id",
+   "fieldtype": "Password",
+   "label": "Access Key ID"
+  },
+  {
+   "fieldname": "aws_secret_access_key",
+   "fieldtype": "Password",
+   "label": "Secret Access Key"
+  },
+  {
+   "default": "prequal",
+   "fieldname": "s3_folder_prefix",
+   "fieldtype": "Data",
+   "label": "S3 Folder Prefix"
+  },
+  {
+   "fieldname": "section_portal",
+   "fieldtype": "Section Break",
+   "label": "Portal Content"
+  },
+  {
+   "fieldname": "portal_instructions",
+   "fieldtype": "Text Editor",
+   "label": "Portal Instructions"
+  }
+ ],
+ "is_single": 1,
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Organisation Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Prequal Admin",
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

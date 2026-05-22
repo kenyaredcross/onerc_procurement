@@ -1,0 +1,124 @@
+{
+ "actions": [],
+ "autoname": "field:category_code",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "category_code",
+  "category_title",
+  "category_type",
+  "is_active",
+  "cb1",
+  "default_fee",
+  "pass_mark",
+  "max_score",
+  "description",
+  "section_checklist",
+  "compliance_checklist"
+ ],
+ "fields": [
+  {
+   "fieldname": "category_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "category_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Category Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category Type",
+   "options": "\nGoods & Supplies\nServices\nCivil Works\nConsultancy\nICT\nPharmaceuticals\nLogistics",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Active"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "default_fee",
+   "fieldtype": "Currency",
+   "label": "Default Fee (0 = use org default)"
+  },
+  {
+   "default": "60",
+   "fieldname": "pass_mark",
+   "fieldtype": "Percent",
+   "label": "Pass Mark (%)"
+  },
+  {
+   "default": "100",
+   "fieldname": "max_score",
+   "fieldtype": "Float",
+   "label": "Max Score"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_checklist",
+   "fieldtype": "Section Break",
+   "label": "Compliance Checklist"
+  },
+  {
+   "fieldname": "compliance_checklist",
+   "fieldtype": "Table",
+   "label": "Compliance Checklist",
+   "options": "Compliance Checklist Template"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Prequal Category",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Evaluator"
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Read Only"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

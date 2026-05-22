@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "autoname": "RESP-.YYYY.-.#####",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "application",
+  "question",
+  "question_text",
+  "question_type",
+  "section_response",
+  "text_response",
+  "number_response",
+  "date_response",
+  "boolean_response",
+  "file_response",
+  "section_scoring",
+  "suggested_score",
+  "suggested_score_label",
+  "final_score",
+  "score_override_reason"
+ ],
+ "fields": [
+  {
+   "fieldname": "application",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Application",
+   "options": "Prequal Application",
+   "reqd": 1
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Question",
+   "options": "Question",
+   "reqd": 1
+  },
+  {
+   "fieldname": "question_text",
+   "fieldtype": "Data",
+   "label": "Question Text (snapshot)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "question_type",
+   "fieldtype": "Data",
+   "label": "Question Type (snapshot)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_response",
+   "fieldtype": "Section Break",
+   "label": "Response"
+  },
+  {
+   "fieldname": "text_response",
+   "fieldtype": "Text",
+   "label": "Text Response"
+  },
+  {
+   "fieldname": "number_response",
+   "fieldtype": "Float",
+   "label": "Number Response"
+  },
+  {
+   "fieldname": "date_response",
+   "fieldtype": "Date",
+   "label": "Date Response"
+  },
+  {
+   "default": "0",
+   "fieldname": "boolean_response",
+   "fieldtype": "Check",
+   "label": "Yes/No Response"
+  },
+  {
+   "fieldname": "file_response",
+   "fieldtype": "Attach",
+   "label": "File Response"
+  },
+  {
+   "fieldname": "section_scoring",
+   "fieldtype": "Section Break",
+   "label": "Scoring"
+  },
+  {
+   "fieldname": "suggested_score",
+   "fieldtype": "Float",
+   "label": "Suggested Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "suggested_score_label",
+   "fieldtype": "Data",
+   "label": "Suggested Score Label",
+   "read_only": 1
+  },
+  {
+   "fieldname": "final_score",
+   "fieldtype": "Float",
+   "label": "Final Score"
+  },
+  {
+   "fieldname": "score_override_reason",
+   "fieldtype": "Small Text",
+   "label": "Override Reason"
+  }
+ ],
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Application Response",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Evaluator"
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "write": 1,
+   "role": "Supplier"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

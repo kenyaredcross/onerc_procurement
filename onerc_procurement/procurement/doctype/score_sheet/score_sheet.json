@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "autoname": "SCORE-.YYYY.-.#####",
+ "creation": "2026-05-21 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "application",
+  "panel",
+  "mandatory_check",
+  "pass_fail",
+  "cb1",
+  "total_score",
+  "evaluated_by",
+  "evaluation_date",
+  "panel_members_summary",
+  "section_mandatory",
+  "mandatory_remarks",
+  "section_scores",
+  "score_lines"
+ ],
+ "fields": [
+  {
+   "fieldname": "application",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Application",
+   "options": "Prequal Application",
+   "reqd": 1
+  },
+  {
+   "fieldname": "panel",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Evaluation Panel",
+   "options": "Evaluation Panel",
+   "reqd": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "mandatory_check",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Mandatory Check",
+   "options": "Pending\nPass\nFail",
+   "reqd": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "pass_fail",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pass / Fail",
+   "options": "Pending\nPass\nFail",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_score",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Score",
+   "read_only": 1
+  },
+  {
+   "fieldname": "evaluated_by",
+   "fieldtype": "Link",
+   "label": "Evaluated By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "evaluation_date",
+   "fieldtype": "Datetime",
+   "label": "Evaluation Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "panel_members_summary",
+   "fieldtype": "Small Text",
+   "label": "Panel Members Summary",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_mandatory",
+   "fieldtype": "Section Break",
+   "label": "Mandatory Criteria Remarks"
+  },
+  {
+   "fieldname": "mandatory_remarks",
+   "fieldtype": "Text",
+   "label": "Mandatory Remarks"
+  },
+  {
+   "fieldname": "section_scores",
+   "fieldtype": "Section Break",
+   "label": "Score Lines"
+  },
+  {
+   "fieldname": "score_lines",
+   "fieldtype": "Table",
+   "label": "Score Lines",
+   "options": "Score Line"
+  }
+ ],
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-05-21 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Score Sheet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Admin",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Prequal Evaluator",
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
