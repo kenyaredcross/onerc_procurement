@@ -1,0 +1,264 @@
+[
+  {
+    "doctype": "Prequal Exercise",
+    "name": "EX-2024-001",
+    "exercise_code": "EX-2024-001",
+    "exercise_title": "KRCS HQ Annual Supplier Prequalification 2024",
+    "status": "Completed",
+    "entity": "KRCS Headquarters",
+    "open_date": "2024-01-15 08:00:00",
+    "close_date": "2024-03-31 17:00:00",
+    "edit_cutoff_date": "2024-03-28 17:00:00",
+    "reminder_days_before": 7,
+    "advertisement_text": "<p>Kenya Red Cross Society invites eligible suppliers to apply for prequalification for the 2024 financial year. Prequalified suppliers will be eligible to tender for contracts below the open tender threshold.</p>",
+    "portal_instructions": "<p>Complete all sections of this application form. Upload clear, legible copies of all requested documents. Ensure your Tax Compliance Certificate is valid before submitting.</p>",
+    "total_bids": 48,
+    "responsive_bids": 41,
+    "non_responsive_bids": 7,
+    "prequalified_count": 38,
+    "categories": [
+      {
+        "doctype": "Exercise Category",
+        "category": "GOODS-001",
+        "category_title": "Office Supplies, Stationery & Furniture",
+        "category_type": "Goods & Supplies",
+        "fee_override": 0,
+        "total_applicants": 15,
+        "responsive_applicants": 13
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "SERV-001",
+        "category_title": "Security & Guard Services",
+        "category_type": "Services",
+        "fee_override": 0,
+        "total_applicants": 10,
+        "responsive_applicants": 9
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "ICT-001",
+        "category_title": "ICT Hardware, Software & Maintenance",
+        "category_type": "ICT",
+        "fee_override": 0,
+        "total_applicants": 12,
+        "responsive_applicants": 10
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "LOG-001",
+        "category_title": "Transport, Fleet & Logistics Services",
+        "category_type": "Logistics",
+        "fee_override": 0,
+        "total_applicants": 11,
+        "responsive_applicants": 9
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Exercise",
+    "name": "EX-2025-001",
+    "exercise_code": "EX-2025-001",
+    "exercise_title": "KRCS HQ Annual Supplier Prequalification 2025",
+    "status": "Completed",
+    "entity": "KRCS Headquarters",
+    "open_date": "2025-01-20 08:00:00",
+    "close_date": "2025-04-30 17:00:00",
+    "edit_cutoff_date": "2025-04-25 17:00:00",
+    "reminder_days_before": 7,
+    "advertisement_text": "<p>KRCS invites applications from companies wishing to be prequalified for the 2025 financial year. All categories are open to new applicants and existing suppliers must re-apply.</p>",
+    "portal_instructions": "<p>Ensure all documents are current and not expired. Applications with expired Tax Compliance Certificates will automatically be marked non-responsive.</p>",
+    "total_bids": 62,
+    "responsive_bids": 54,
+    "non_responsive_bids": 8,
+    "prequalified_count": 49,
+    "categories": [
+      {
+        "doctype": "Exercise Category",
+        "category": "GOODS-001",
+        "category_title": "Office Supplies, Stationery & Furniture",
+        "category_type": "Goods & Supplies",
+        "fee_override": 0,
+        "total_applicants": 18,
+        "responsive_applicants": 16
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "SERV-001",
+        "category_title": "Security & Guard Services",
+        "category_type": "Services",
+        "fee_override": 0,
+        "total_applicants": 12,
+        "responsive_applicants": 10
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "CIVIL-001",
+        "category_title": "Building, Construction & Civil Works",
+        "category_type": "Civil Works",
+        "fee_override": 7500,
+        "total_applicants": 14,
+        "responsive_applicants": 12
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "ICT-001",
+        "category_title": "ICT Hardware, Software & Maintenance",
+        "category_type": "ICT",
+        "fee_override": 0,
+        "total_applicants": 10,
+        "responsive_applicants": 9
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "PHARMA-001",
+        "category_title": "Pharmaceutical & Medical Supplies",
+        "category_type": "Pharmaceuticals",
+        "fee_override": 7500,
+        "total_applicants": 8,
+        "responsive_applicants": 7
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Exercise",
+    "name": "EX-2026-001",
+    "exercise_code": "EX-2026-001",
+    "exercise_title": "KRCS HQ Annual Supplier Prequalification 2026",
+    "status": "Published",
+    "entity": "KRCS Headquarters",
+    "open_date": "2026-04-01 08:00:00",
+    "close_date": "2026-07-31 17:00:00",
+    "edit_cutoff_date": "2026-07-28 17:00:00",
+    "reminder_days_before": 7,
+    "advertisement_text": "<p><strong>INVITATION TO APPLY FOR SUPPLIER PREQUALIFICATION — 2026</strong></p><p>Kenya Red Cross Society (KRCS) invites eligible suppliers to apply for prequalification for the 2026/2027 financial year. Prequalified suppliers will be considered for procurement of goods, works and services below open tender thresholds.</p><p><strong>Closing date: 31 July 2026 at 5:00 PM EAT</strong></p>",
+    "portal_instructions": "<p>1. Complete all mandatory sections of this portal application.<br>2. Upload clear, legible copies of all required documents.<br>3. Pay the application fee of KES 5,000 (or KES 7,500 for Civil Works and Pharmaceuticals) via M-Pesa STK Push.<br>4. Submit before the deadline. Late submissions will not be accepted.</p>",
+    "total_bids": 23,
+    "responsive_bids": 20,
+    "non_responsive_bids": 3,
+    "prequalified_count": 0,
+    "categories": [
+      {
+        "doctype": "Exercise Category",
+        "category": "GOODS-001",
+        "category_title": "Office Supplies, Stationery & Furniture",
+        "category_type": "Goods & Supplies",
+        "fee_override": 0,
+        "total_applicants": 8,
+        "responsive_applicants": 7
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "SERV-001",
+        "category_title": "Security & Guard Services",
+        "category_type": "Services",
+        "fee_override": 0,
+        "total_applicants": 5,
+        "responsive_applicants": 4
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "CIVIL-001",
+        "category_title": "Building, Construction & Civil Works",
+        "category_type": "Civil Works",
+        "fee_override": 7500,
+        "total_applicants": 4,
+        "responsive_applicants": 4
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "ICT-001",
+        "category_title": "ICT Hardware, Software & Maintenance",
+        "category_type": "ICT",
+        "fee_override": 0,
+        "total_applicants": 6,
+        "responsive_applicants": 5
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Exercise",
+    "name": "EX-2026-002",
+    "exercise_code": "EX-2026-002",
+    "exercise_title": "North Rift Region Supplier Prequalification 2026",
+    "status": "Published",
+    "entity": "North Rift Region",
+    "open_date": "2026-05-01 08:00:00",
+    "close_date": "2026-06-30 17:00:00",
+    "edit_cutoff_date": "2026-06-27 17:00:00",
+    "reminder_days_before": 5,
+    "advertisement_text": "<p>KRCS North Rift Region invites suppliers based in or serving the North Rift (Eldoret, Kitale, Kakamega, Kericho, Nakuru) to apply for supplier prequalification for 2026.</p>",
+    "portal_instructions": "<p>Priority will be given to suppliers with physical presence or proven supply capacity in the North Rift region. Include reference letters from clients within the region.</p>",
+    "total_bids": 11,
+    "responsive_bids": 10,
+    "non_responsive_bids": 1,
+    "prequalified_count": 0,
+    "categories": [
+      {
+        "doctype": "Exercise Category",
+        "category": "GOODS-001",
+        "category_title": "Office Supplies, Stationery & Furniture",
+        "category_type": "Goods & Supplies",
+        "fee_override": 3000,
+        "total_applicants": 5,
+        "responsive_applicants": 5
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "LOG-001",
+        "category_title": "Transport, Fleet & Logistics Services",
+        "category_type": "Logistics",
+        "fee_override": 3000,
+        "total_applicants": 6,
+        "responsive_applicants": 5
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Exercise",
+    "name": "EX-2026-003",
+    "exercise_code": "EX-2026-003",
+    "exercise_title": "Switch TV & Boma Hotel Joint Vendor Registration 2026",
+    "status": "Draft",
+    "entity": "Switch TV / Boma Hotel",
+    "open_date": "2026-08-01 08:00:00",
+    "close_date": "2026-09-30 17:00:00",
+    "edit_cutoff_date": "2026-09-27 17:00:00",
+    "reminder_days_before": 5,
+    "advertisement_text": "<p>Switch TV and Boma Hotel (KRCS commercial entities) will be issuing a joint vendor registration exercise for common supply categories. More details will be published when the exercise opens.</p>",
+    "portal_instructions": "<p>This exercise is not yet open. Please check back from 1 August 2026.</p>",
+    "total_bids": 0,
+    "responsive_bids": 0,
+    "non_responsive_bids": 0,
+    "prequalified_count": 0,
+    "categories": [
+      {
+        "doctype": "Exercise Category",
+        "category": "GOODS-001",
+        "category_title": "Office Supplies, Stationery & Furniture",
+        "category_type": "Goods & Supplies",
+        "fee_override": 2500,
+        "total_applicants": 0,
+        "responsive_applicants": 0
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "CONS-001",
+        "category_title": "Professional & Management Consultancy",
+        "category_type": "Consultancy",
+        "fee_override": 2500,
+        "total_applicants": 0,
+        "responsive_applicants": 0
+      },
+      {
+        "doctype": "Exercise Category",
+        "category": "ICT-001",
+        "category_title": "ICT Hardware, Software & Maintenance",
+        "category_type": "ICT",
+        "fee_override": 2500,
+        "total_applicants": 0,
+        "responsive_applicants": 0
+      }
+    ]
+  }
+]

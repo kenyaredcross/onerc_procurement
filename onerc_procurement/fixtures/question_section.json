@@ -1,0 +1,101 @@
+[
+  {
+    "doctype": "Question Section",
+    "name": "Company Information",
+    "section_name": "Company Information",
+    "order": 10,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Provide the basic details of your company / organisation."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Contact Details",
+    "section_name": "Contact Details",
+    "order": 20,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Provide current contact information for your organisation."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Banking Details",
+    "section_name": "Banking Details",
+    "order": 30,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Provide your organisation’s primary banking information."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Registration & Statutory",
+    "section_name": "Registration & Statutory",
+    "order": 40,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Upload all mandatory statutory and registration documents."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Director / Shareholder Information",
+    "section_name": "Director / Shareholder Information",
+    "order": 50,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "List all directors and major shareholders of the company."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Business Integrity",
+    "section_name": "Business Integrity",
+    "order": 60,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Answer all integrity questions truthfully. Any YES answer will trigger a compliance review."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Sustainable Procurement & ESG",
+    "section_name": "Sustainable Procurement & ESG",
+    "order": 70,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Provide information on your environmental, social, and governance (ESG) practices."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Governance & Compliance",
+    "section_name": "Governance & Compliance",
+    "order": 80,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Demonstrate your organisation’s governance framework and compliance culture."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Trade References",
+    "section_name": "Trade References",
+    "order": 90,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Provide at least two trade references from organisations you have supplied in the last three years."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Financial Performance",
+    "section_name": "Financial Performance",
+    "order": 100,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Provide audited financial data for the last two financial years."
+  },
+  {
+    "doctype": "Question Section",
+    "name": "Declaration",
+    "section_name": "Declaration",
+    "order": 110,
+    "is_mandatory_for_all": 1,
+    "applies_to_supplier_portal": 1,
+    "description": "Read and confirm the declaration before submitting your application."
+  }
+]

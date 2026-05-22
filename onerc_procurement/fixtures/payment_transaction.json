@@ -1,0 +1,142 @@
+[
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2026-00001",
+    "supplier": "SUPP-2026-00001",
+    "exercise": "EX-2026-001",
+    "amount": 5000,
+    "phone_number": "254722345678",
+    "status": "Completed",
+    "checkout_request_id": "ws_CO_03042026102215123456789",
+    "merchant_request_id": "29115-34620561-1",
+    "mpesa_receipt": "QKT3ABCDEF1",
+    "transaction_date": "2026-04-03 10:22:15",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2026-00001",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2026-00002",
+    "supplier": "SUPP-2026-00002",
+    "exercise": "EX-2026-001",
+    "amount": 5000,
+    "phone_number": "254733456789",
+    "status": "Completed",
+    "checkout_request_id": "ws_CO_05042026141007234567890",
+    "merchant_request_id": "29116-34620562-2",
+    "mpesa_receipt": "QKT3BCDEFG2",
+    "transaction_date": "2026-04-05 14:10:07",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2026-00002",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2026-00003",
+    "supplier": "SUPP-2026-00003",
+    "exercise": "EX-2026-001",
+    "amount": 7500,
+    "phone_number": "254711234567",
+    "status": "Completed",
+    "checkout_request_id": "ws_CO_08042026085500345678901",
+    "merchant_request_id": "29117-34620563-3",
+    "mpesa_receipt": "QKT3CDEFGH3",
+    "transaction_date": "2026-04-08 08:55:00",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2026-00003",
+        "amount": 7500
+      }
+    ]
+  },
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2026-00004",
+    "supplier": "SUPP-2026-00004",
+    "exercise": "EX-2026-001",
+    "amount": 5000,
+    "phone_number": "254720987654",
+    "status": "Completed",
+    "checkout_request_id": "ws_CO_10042026164500456789012",
+    "merchant_request_id": "29118-34620564-4",
+    "mpesa_receipt": "QKT3DEFGHI4",
+    "transaction_date": "2026-04-10 16:45:00",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2026-00004",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2026-00005",
+    "supplier": "SUPP-2026-00003",
+    "exercise": "EX-2026-001",
+    "amount": 5000,
+    "phone_number": "254711234567",
+    "status": "Failed",
+    "checkout_request_id": "ws_CO_12042026103000567890123",
+    "merchant_request_id": "29119-34620565-5",
+    "transaction_date": "2026-04-12 10:30:00",
+    "failure_reason": "DS00011 - Insufficient funds in customer account",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2026-00005",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2025-00001",
+    "supplier": "SUPP-2026-00001",
+    "exercise": "EX-2025-001",
+    "amount": 5000,
+    "phone_number": "254722345678",
+    "status": "Completed",
+    "checkout_request_id": "ws_CO_22012025091000678901234",
+    "merchant_request_id": "28001-12345678-1",
+    "mpesa_receipt": "PJR2ABCDEF1",
+    "transaction_date": "2025-01-22 09:10:00",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2025-00001",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "doctype": "Payment Transaction",
+    "name": "PAY-2025-00002",
+    "supplier": "SUPP-2026-00005",
+    "exercise": "EX-2025-001",
+    "amount": 7500,
+    "phone_number": "254745678901",
+    "status": "Completed",
+    "checkout_request_id": "ws_CO_28012025113500789012345",
+    "merchant_request_id": "28002-12345679-2",
+    "mpesa_receipt": "PJR2BCDEFG2",
+    "transaction_date": "2025-01-28 11:35:00",
+    "applications": [
+      {
+        "doctype": "Payment Application Link",
+        "application": "APP-2025-00002",
+        "amount": 7500
+      }
+    ]
+  }
+]

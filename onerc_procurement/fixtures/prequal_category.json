@@ -1,0 +1,345 @@
+[
+  {
+    "doctype": "Prequal Category",
+    "name": "GOODS-001",
+    "category_code": "GOODS-001",
+    "category_title": "Office Supplies, Stationery & Furniture",
+    "category_type": "Goods & Supplies",
+    "is_active": 1,
+    "default_fee": 5000,
+    "pass_mark": 60,
+    "max_score": 100,
+    "description": "<p>Supply of office stationery, printing consumables, general supplies, and office furniture to KRCS facilities.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "KRA PIN Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Valid Business Permit / Trade Licence",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "County"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "CR12 (Company Registry Extract)",
+        "is_mandatory": 0,
+        "check_expiry": 0,
+        "verify_with": "Self-Declaration"
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Category",
+    "name": "SERV-001",
+    "category_code": "SERV-001",
+    "category_title": "Security & Guard Services",
+    "category_type": "Services",
+    "is_active": 1,
+    "default_fee": 5000,
+    "pass_mark": 65,
+    "max_score": 100,
+    "description": "<p>Provision of uniformed guarding, access control, CCTV monitoring, and related security services at KRCS facilities across Kenya.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Private Security Regulatory Authority (PSRA) Licence",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "County"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "NSSF & NHIF Compliance Certificates",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Professional Indemnity Insurance",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Category",
+    "name": "CIVIL-001",
+    "category_code": "CIVIL-001",
+    "category_title": "Building, Construction & Civil Works",
+    "category_type": "Civil Works",
+    "is_active": 1,
+    "default_fee": 7500,
+    "pass_mark": 70,
+    "max_score": 100,
+    "description": "<p>Construction, renovation, repair, and maintenance of KRCS buildings, warehouses, and infrastructure across all regions.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "NCA Registration Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "NCA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Contractor All-Risk Insurance",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "WIBA (Workmen Insurance) Policy",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Category",
+    "name": "CONS-001",
+    "category_code": "CONS-001",
+    "category_title": "Professional & Management Consultancy",
+    "category_type": "Consultancy",
+    "is_active": 1,
+    "default_fee": 5000,
+    "pass_mark": 70,
+    "max_score": 100,
+    "description": "<p>Provision of professional advisory, research, M&E, training facilitation, and management consulting services to KRCS.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Professional Body Membership Certificate",
+        "is_mandatory": 0,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "CV / Profiles of Lead Consultants",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "Self-Declaration"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Professional Indemnity Insurance",
+        "is_mandatory": 0,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Category",
+    "name": "ICT-001",
+    "category_code": "ICT-001",
+    "category_title": "ICT Hardware, Software & Maintenance",
+    "category_type": "ICT",
+    "is_active": 1,
+    "default_fee": 5000,
+    "pass_mark": 65,
+    "max_score": 100,
+    "description": "<p>Supply, installation, and maintenance of computers, servers, networking equipment, software licences, and ICT support services.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Authorised Dealership / Distributorship Letters",
+        "is_mandatory": 0,
+        "check_expiry": 0,
+        "verify_with": "Self-Declaration"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "eTIMS Registration Evidence",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "ISO 9001 Quality Management Certificate",
+        "is_mandatory": 0,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Category",
+    "name": "PHARMA-001",
+    "category_code": "PHARMA-001",
+    "category_title": "Pharmaceutical & Medical Supplies",
+    "category_type": "Pharmaceuticals",
+    "is_active": 1,
+    "default_fee": 7500,
+    "pass_mark": 75,
+    "max_score": 100,
+    "description": "<p>Supply of medicines, medical consumables, laboratory reagents, and first-aid equipment to KRCS clinics, blood banks, and field operations.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Pharmacy & Poisons Board (PPB) Registration",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "PPB"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Good Distribution Practice (GDP) Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "PPB"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Product Registration Certificates (sample list)",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "PPB"
+      }
+    ]
+  },
+  {
+    "doctype": "Prequal Category",
+    "name": "LOG-001",
+    "category_code": "LOG-001",
+    "category_title": "Transport, Fleet & Logistics Services",
+    "category_type": "Logistics",
+    "is_active": 1,
+    "default_fee": 5000,
+    "pass_mark": 65,
+    "max_score": 100,
+    "description": "<p>Provision of vehicle hire, courier services, cold-chain logistics, last-mile delivery, and warehouse management for KRCS programmes.</p>",
+    "compliance_checklist": [
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Certificate of Registration / Incorporation",
+        "is_mandatory": 1,
+        "check_expiry": 0,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Tax Compliance Certificate",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "KRA"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "NTSA / PSV / Goods Vehicle Licences",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "County"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Fleet Insurance (Comprehensive)",
+        "is_mandatory": 1,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      },
+      {
+        "doctype": "Compliance Checklist Template",
+        "item_name": "Goods-in-Transit Insurance",
+        "is_mandatory": 0,
+        "check_expiry": 1,
+        "verify_with": "Self-Declaration"
+      }
+    ]
+  }
+]

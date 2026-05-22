@@ -5,8 +5,10 @@ app_description = "Supplier Prequalification Platform for Kenya Red Cross Societ
 app_email = "njengasheba@gmail.com"
 app_license = "mit"
 
-# Fixtures — export roles on bench export-fixtures
+# Fixtures — loaded via: bench --site <site> import-fixtures --app onerc_procurement
+# Exported via:          bench --site <site> export-fixtures --app onerc_procurement
 fixtures = [
+    # ── Roles ───────────────────────────────────────────────────────────────
     {
         "doctype": "Role",
         "filters": [
@@ -18,7 +20,42 @@ fixtures = [
                 "Supplier",
             ]]
         ]
-    }
+    },
+    # ── Seed / configuration data (safe to re-import on every migrate) ──────
+    {"doctype": "Prequal Category"},
+    {"doctype": "Question Section"},
+    {"doctype": "Question"},
+    # ── Test / demo data (identified by name — will not touch other records) ─
+    {
+        "doctype": "Prequal Exercise",
+        "filters": [["name", "in", [
+            "EX-2024-001", "EX-2025-001",
+            "EX-2026-001", "EX-2026-002", "EX-2026-003",
+        ]]]
+    },
+    {
+        "doctype": "Supplier Profile",
+        "filters": [["name", "in", [
+            "SUPP-2026-00001", "SUPP-2026-00002", "SUPP-2026-00003",
+            "SUPP-2026-00004", "SUPP-2026-00005",
+        ]]]
+    },
+    {
+        "doctype": "Prequal Application",
+        "filters": [["name", "in", [
+            "APP-2026-00001", "APP-2026-00002", "APP-2026-00003",
+            "APP-2026-00004", "APP-2026-00005",
+            "APP-2025-00001", "APP-2025-00002",
+        ]]]
+    },
+    {
+        "doctype": "Payment Transaction",
+        "filters": [["name", "in", [
+            "PAY-2026-00001", "PAY-2026-00002", "PAY-2026-00003",
+            "PAY-2026-00004", "PAY-2026-00005",
+            "PAY-2025-00001", "PAY-2025-00002",
+        ]]]
+    },
 ]
 
 # Scheduled Tasks
